@@ -3,19 +3,20 @@
     font-weight: bolder;
 } */
 h1{
-    padding: 20px;
+    padding: 50px;
     border: 20px solid green;
-    margin: 20px;
+    margin: 10px;
 }
-/* img{
-    height: 500px;
-    width: 500px;
-    border-radius: 500px;
-    
-} */
+img{
+     height: 500px;
+        width: 500px;
+        background-color: black ;
+        padding: 100px;
+} 
 video{
-    width: 500px;
-}
+    height: auto;
+    width: 100%;
+} 
 .imagevideo{
     background-color: aliceblue;
     padding: 50px;
@@ -27,16 +28,16 @@ video{
 #p2{
     font-style: italic;
 }
-nav{
+/* nav{
     display: flex;
     flex-direction: row;
     gap: 20px;
-}
+} */
 ol{
     list-style-type: upper-roman;
 }
 ul{
-    list-style-type: none;
+    list-style-type: disc;
 }
 table,td,th{
     border: 1px solid black;
@@ -67,11 +68,11 @@ form{
     padding: 20px;
     border-radius: 50px;
 }
-.grid{
+/* .grid{
     display: grid;
     width:50%;
-    grid-template-columns: 33% 33% 33%;
-}
+    grid-template-columns: 33% 33% 33%; 
+}*/
 #one{
     grid-row: 1/2;
     border-color:lightgreen;
@@ -102,7 +103,38 @@ form{
     background-color: lightsalmon;
     height: 15px;
 }
-.food{
+/* .food{
     display: grid;
     grid-template-columns: 50% 50%;
-}
+} */
+   /* phone @media(min-width:1024px){
+    img{
+        height: 500px;
+        width: 500px;
+        background-color: blue;
+        padding: 100px;
+    }
+ }  */
+   /*desktop @media(max-width:600px){
+    img{
+        height: auto;
+        width: 100%;
+    }
+  }  */
+    /*laptop .grid{
+        display: grid;
+    } */
+    @media(min-width:1024px){
+        nav{
+            display: flex;
+             flex-direction: column;/*flex-direction: row; */
+            gap: 10px;
+        }
+        .grid{
+            display: grid;
+            /* laptop width: 100%;
+            grid-template-columns: 33% 33% 33%; */
+            width: 100%;
+        grid-template-columns: (1fr,3);
+        }
+    }
