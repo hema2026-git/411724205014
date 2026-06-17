@@ -10,14 +10,12 @@ nav a {
     color: black;
     font-weight: bold;
 }
-
-
-@media (min-width: 768px){
+ @media (min-width: 768px){
     nav {
         flex-direction: row;
         gap: 30px;
     }
-}
+} 
 h1 {
     text-align: center;
 }
@@ -44,10 +42,6 @@ td {
     padding: 10px;
     text-align: center;
 }
-
-th {
-    background-color: lightgreen;
-}
 button {
     background-color: lightgreen;
     color:black;
@@ -66,9 +60,10 @@ button:hover {
     margin: 20px;
 }
 .grid div {
+    border: 1px solid black;
     padding:20px;
     text-align: center;
-    background-color: lightgreen;
+
 }
 @media (max-width: 767px){
     .grid {
