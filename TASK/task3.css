@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+h1 {
+    color:black;
+}
+input {
+    padding: 8px;
+    width: 250px;
+}
+button {
+    padding:12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#messagesContainer {
+    margin-top: 20px;
+}
+.message {
+    background-color:lightgreen;
+    padding: 10px;
+    margin: 5px ;
+    border-radius: 5px;
+}
+#status {
+    margin-top: 10px;
+    font-weight: bold;
+}
